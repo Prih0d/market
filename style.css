@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: dimgray;
+}
+
+button{
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+
+}
+
+.elements{
+    display: flex;
+    
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.elements p{
+    background-color: white;
+}
+
+.elements-block{
+    border: 1px solid;
+}
